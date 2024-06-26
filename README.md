@@ -1,8 +1,7 @@
 # Java-dio-DesafioUML
 
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## ATIVIDADES DO DESAFIO
+1. Criar um diagrama UML que represente as funcionalidades descritas acima.
 
 ## UML
 ### Exemplo de Diagrama UML (Mermaid)
@@ -42,6 +41,6 @@ classDiagram
     Iphone --> AparelhoTelefonico
     Iphone --> NavegadorInternet
 ```
-## Dependency Management
+2. Implementar as classes e interfaces correspondentes em Java (Opcional).
+   ### Implementação feita com menu responsivo com a utilização de todos os recursos ensinados em aula.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
