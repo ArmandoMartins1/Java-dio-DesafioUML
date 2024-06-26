@@ -9,6 +9,15 @@ Welcome to the VS Code Java world. Here is a guideline to help you get started t
 ```mermaid
 classDiagram
     class ReprodutorMusical {
+        -musica: String
+        +getMusica() String
+        +setMusica(Musica: String) Void
+        +selecionarMusica(Musica: String) Void
+        +pausar() Void
+        +tocar() Void
+    }
+
+    class AparelhoTelefonico {
         -numero: String
         +getNumero() String
         +setNumero(numero: String) Void
@@ -17,14 +26,13 @@ classDiagram
         +iniciarCorreioVoz() Void
     }
 
-    class AparelhoTelefonico {
-        +exemploMetodo1()
-        +exemploMetodo2(String exemplo)
-    }
-
     class NavegadorInternet {
-        +exemploMetodo1()
-        +exemploMetodo2(String exemplo)
+        -url: String
+        +geturl() String
+        +seturl(url: String) Void
+        +exibirPagina(url: String) Void
+        +adicionarNovaAba() Void
+        +atualizarPagina() Void
     }
 
     class Iphone {
