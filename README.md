@@ -10,11 +10,11 @@ Welcome to the VS Code Java world. Here is a guideline to help you get started t
 classDiagram
     class ReprodutorMusical {
         -numero: String
-        +getNumero(): String
-        +setNumero(numero: String): Void
-        +ligar(numero: String): Void
-        +atender(): Void
-        +iniciarCorreioVoz(): Void
+        +getNumero() String
+        +setNumero(numero: String) Void
+        +ligar(numero: String) Void
+        +atender() Void
+        +iniciarCorreioVoz() Void
     }
 
     class AparelhoTelefonico {
