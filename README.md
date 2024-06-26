@@ -2,6 +2,8 @@
 
 ## ATIVIDADES DO DESAFIO
 1. Criar um diagrama UML que represente as funcionalidades descritas acima.
+2. Implementar as classes e interfaces correspondentes em Java (Opcional).
+   ### Implementação feita com menu responsivo com a utilização de todos os recursos ensinados em aula.
 
 ## UML
 ### Exemplo de Diagrama UML (Mermaid)
@@ -41,6 +43,5 @@ classDiagram
     Iphone --> AparelhoTelefonico
     Iphone --> NavegadorInternet
 ```
-2. Implementar as classes e interfaces correspondentes em Java (Opcional).
-   ### Implementação feita com menu responsivo com a utilização de todos os recursos ensinados em aula.
+
 
